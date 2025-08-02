@@ -46,8 +46,8 @@ const mainNavItems = [
 export function MainNav() {
 	return (
 		<header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-			<div className="container flex h-16 items-center">
-				<Link href="/" className="mr-8 flex items-center space-x-2">
+			<div className="container mx-auto flex h-16 items-center justify-between px-8 lg:px-12 xl:px-16">
+				<Link href="/" className="flex items-center space-x-2">
 					<span className="text-gradient font-bold text-xl">BuildWell</span>
 				</Link>
 				<NavigationMenu className="hidden md:flex">
@@ -96,7 +96,7 @@ export function MainNav() {
 						))}
 					</NavigationMenuList>
 				</NavigationMenu>
-				<div className="ml-auto flex items-center gap-4">
+				<div className="flex items-center gap-4">
 					<Button asChild variant="ghost" size="sm" className="hidden md:flex">
 						<Link href="tel:+1234567890" className="flex items-center gap-2">
 							<Phone className="h-4 w-4" />
