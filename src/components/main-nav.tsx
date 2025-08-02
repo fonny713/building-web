@@ -48,7 +48,7 @@ export function MainNav() {
 		<header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
 			<div className="container flex h-16 items-center">
 				<Link href="/" className="mr-8 flex items-center space-x-2">
-					<span className="text-gradient font-bold text-xl">BuildWell Solutions</span>
+					<span className="text-gradient font-bold text-xl">BuildWell</span>
 				</Link>
 				<NavigationMenu className="hidden md:flex">
 					<NavigationMenuList className="gap-2">
@@ -100,7 +100,7 @@ export function MainNav() {
 					<Button asChild variant="ghost" size="sm" className="hidden md:flex">
 						<Link href="tel:+1234567890" className="flex items-center gap-2">
 							<Phone className="h-4 w-4" />
-							<span>+1 234 567 890</span>
+							<span>+48 234 567 890</span>
 						</Link>
 					</Button>
 					<ContactButton />
